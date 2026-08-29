@@ -22,7 +22,7 @@ spec:
         - name: restaurant-company
 
           # Jenkins will replace this image during deployment
-          image: YOUR_AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/restaurant-company:latest
+          image: 584612873567.dkr.ecr.us-east-1.amazonaws.com/restaurant-company:latest
 
           imagePullPolicy: Always
 
