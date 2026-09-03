@@ -7,7 +7,7 @@ pipeline {
         // CHANGE THESE
         AWS_ACCOUNT_ID = '584612873567'
         ECR_REPOSITORY = 'restaurant-company'
-        EKS_CLUSTER_NAME = 'eks-trivy'
+        EKS_CLUSTER_NAME = 'my-eks'
 
         IMAGE = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}:latest"
     }
